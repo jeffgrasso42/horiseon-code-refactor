@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* all rules with the .header class now select the header element and its children */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -50,7 +51,8 @@ p {
     font-size: 16px;
 }
 
-.hero {
+/* background image now included in html and selected by id */
+#hero {
     height: auto;
     width: 100%;
     margin-bottom: 25px;
@@ -66,7 +68,8 @@ p {
     margin-left: 25px;
 }
 
-.content {
+/* selects the main tag instead of .class content */
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -124,6 +127,6 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+footer h4 {
     font-size: 20px;
 }
